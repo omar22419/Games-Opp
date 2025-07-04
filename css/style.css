@@ -1,0 +1,90 @@
+body{
+    font-family: cursive;
+    background-color: #272B30 ;
+    color: white;
+}
+
+.header-image img{
+    max-height: 30vh;
+    object-fit: cover;
+}
+
+nav{
+    border: 5px;
+    border-radius: 20px;
+    background-color: #3A497B;
+    color: white;
+}
+
+.navbar-brand , .nav-item a{
+    color: white !important;
+}
+
+.acitve{
+    color :#09c !important;
+}
+
+.nav-item a:hover {
+    color :#09c !important;
+}
+
+.card{
+    height: 350px;
+}
+
+.card:hover{
+    cursor: pointer;
+    scale: 1.1;
+    transition: all 0.5s;
+}
+
+.card-body h5{
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.card-body p{
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.badge-color{
+    background-color: #32383e;
+}
+
+#demo button{
+    color: white;
+    background-color: #3A497B;
+    border-radius: 10px;
+    border: 0;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 12px;
+}
+
+.details .header button{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    align-self: center;
+
+}
+
+.special{
+    background-color: #0DCAF0;
+    border-radius: 7px;
+    color: black;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 700;
+
+}
+
+.details p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
